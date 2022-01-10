@@ -60,4 +60,4 @@ function sacar(valor){
 
 }
 
-console.log(sacar(166))
+sacar(166)
