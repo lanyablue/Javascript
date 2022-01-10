@@ -11,17 +11,17 @@ function notaAlunos(nota){
 
     const notaArredondada = arredondar(nota)
     
-    if (nota < 38){
-        console.log('reprovado')
+    if (notaArredondada >= 40){
+        console.log(`Aprovado com a nota ${notaArredondada}`)
     } else {
-        console.log(`Aprovado com ${notaArredondada}`)
+        console.log(`Reprovado com a nota ${notaArredondada}`)
     }
 
 }
 
 function arredondar(nota){
     if (nota % 5 > 2){
-        return nota + (5 - (nota % 5 > 2))
+        return nota + (5 - (nota % 5))
     } else {
         return nota
     }
