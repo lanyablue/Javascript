@@ -39,23 +39,23 @@ function sacar(valor){
 
 
     if (notaDeCem != 0){
-        console.log(`${notaDeCem} celulas de 100 reais sacadas!`)
+        console.log(`${notaDeCem} cedulas de 100 reais sacadas!`)
     }  
 
     if (notadeCinquenta != 0){
-        console.log(`${notadeCinquenta} celulas de 50 reais sacadas!`)
+        console.log(`${notadeCinquenta} cedulas de 50 reais sacadas!`)
     }
 
     if (notaDeDez != 0){
-        console.log(`${notaDeDez} celulas de 10 reais sacadas!`)
+        console.log(`${notaDeDez} cedulas de 10 reais sacadas!`)
     }
 
     if (notaDeCinco != 0){
-        console.log(`${notaDeCinco} celulas de 5 reais sacadas!`)
+        console.log(`${notaDeCinco} cedulas de 5 reais sacadas!`)
     }
 
     if (notaDeUm != 0){
-        console.log(`${notaDeUm} celulas de 1 real sacadas!`)
+        console.log(`${notaDeUm} cedulas de 1 real sacadas!`)
     }
 
 }
