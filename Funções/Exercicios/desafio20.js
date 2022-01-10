@@ -8,32 +8,32 @@ nota(s) de R$ 10. 1 nota(s) de R$ 5. 3 nota(s) de R$ 1. */
 function sacar(valor){
 
     // Sacando 100
-    rest100 = valor % 100
-    notaDeCem = (valor - rest100) / 100 // quantidade de cedulas de 100
+    const rest100 = valor % 100
+    const notaDeCem = (valor - rest100) / 100 // quantidade de cedulas de 100
 
 
     // Sacando 50
     valor = rest100
-    rest50 = valor % 50
-    notadeCinquenta = (valor - rest50) / 50  // quantidade de cedulas de 50
+    const rest50 = valor % 50
+    const notadeCinquenta = (valor - rest50) / 50  // quantidade de cedulas de 50
 
 
     // Sacar 10
     valor = rest50
-    rest10 = valor % 10
-    notaDeDez = (valor - rest10) / 10    // quantidade de cedulas de 10
+    const rest10 = valor % 10
+    const notaDeDez = (valor - rest10) / 10    // quantidade de cedulas de 10
 
     
     // Sacar 5
     valor = rest10
-    rest5 = valor % 5
-    notaDeCinco = (valor - rest5) / 5   // quantidade de cedulas de 5
+    const rest5 = valor % 5
+    const notaDeCinco = (valor - rest5) / 5   // quantidade de cedulas de 5
 
 
     // Sacar 1
     valor = rest5
-    rest1 = valor % 1
-    notaDeUm = (valor - rest1) / 1  // quantidade de cedulas de 100 1
+    const rest1 = valor % 1
+    const notaDeUm = (valor - rest1) / 1  // quantidade de cedulas de 100 1
     
     valor = rest1
 
